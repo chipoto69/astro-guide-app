@@ -1,0 +1,21 @@
+{
+  "name": "astro-guide-app",
+  "version": "1.0.0",
+  "description": "Astrological and Human Design Guide Application",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "axios": "^1.6.8"
+  }
+} 
